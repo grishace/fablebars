@@ -1,0 +1,17 @@
+{
+  "verbose": false,
+  "sourceMaps": true,
+  "projFile": "./src/code.fsx",
+  "outDir": "temp",
+  "scripts": {
+    "prebuild": "npm install --loglevel=error",
+    "postbuild": "webpack"
+  },
+  "targets": {
+    "watch": {
+      "scripts": {
+        "postbuild": "webpack --watch"
+      }
+    }
+  }
+}
