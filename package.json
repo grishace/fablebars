@@ -1,13 +1,13 @@
 {
-  "name": "ddd-fable",
+  "name": "fablebars",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fable experiments",
   "main": "index.js",
   "scripts": {
     "build": "fable",
     "watch": "fable -w --target watch"
   },
-  "author": "",
+  "author": "grishace",
   "license": "ISC",
   "devDependencies": {
     "fable-compiler": "^0.7.42",
